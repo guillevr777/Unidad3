@@ -1,5 +1,5 @@
 import { Text, View, FlatList, StyleSheet} from "react-native";
-import Persona from "./Model/Data/RepositorioPersona";
+import IndexVM from "../Model/ViewModel/IndexVM";
 
 //#region styles
 const styles = StyleSheet.create({
@@ -18,12 +18,12 @@ const styles = StyleSheet.create({
 export default function Index() {
   return (
     <FlatList
-    data={Persona.getPersonas()}
-    keyExtractor={(item) => item.getId().toString()}
-    renderItem={({item}) => (
-      <View style = {styles.item}>
-        <Text style = {styles.text}>{item.getNombre()} {item.getApellido()}</Text>
-      </View>
+      data={new IndexVM().getPersonas()}
+      keyExtractor={(item) => item.id.toString()}
+      renderItem={({item}) => (
+        <View style={styles.item}>
+          <Text style={styles.text}>{item.nombre} {item.apellido}</Text>
+        </View>
     )}
     />
   )
