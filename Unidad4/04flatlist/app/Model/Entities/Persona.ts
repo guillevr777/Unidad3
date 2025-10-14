@@ -1,3 +1,4 @@
+
 export class Persona {
 
     private id: number;
@@ -9,18 +10,14 @@ export class Persona {
         this.nombre = nombre;
         this.apellido = apellido;
     }
-
-    public getId(): number {
+    public get Id(): number {
         return this.id;
     }
-    public getNombre(): string {
+    public get Nombre(): string {
         return this.nombre;
     }
-    public getApellido(): string {
+    public get Apellido(): string {
         return this.apellido;
-    }
-    public setId(id: number): void {
-        this.id = id;
     }
     public setNombre(nombre: string): void {
         this.nombre = nombre;
@@ -29,4 +26,3 @@ export class Persona {
         this.apellido = apellido;
     }
 }
-
