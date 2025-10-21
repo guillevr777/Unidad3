@@ -52,7 +52,7 @@ export class PersonasRepository100 implements IRepositoryPersonas{
         //En un futuro, esto podría hacer llamadas a una API que nos ofreciera los datos
         return [
             new Persona(1, "Laura Luzhen", "Rodríguez Morán"),
-new Persona(2, "Mateo", "Fernández"),
+new Persona(2, "Hugo", "Dominguez Ferrer"),
 new Persona(3, "Sofía", "López"),
 new Persona(4, "Diego", "Martínez"),
 new Persona(5, "Valentina", "Sánchez"),
