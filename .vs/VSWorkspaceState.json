@@ -1,9 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Unidad4",
-    "\\Unidad4\\03view",
-    "\\Unidad4\\03view\\app"
+    "\\Unidad5",
+    "\\Unidad5\\CleanArquitecture",
+    "\\Unidad5\\CleanArquitecture\\app",
+    "\\Unidad5\\CleanArquitecture\\app\\domain",
+    "\\Unidad5\\CleanArquitecture\\app\\domain\\interfaces",
+    "\\Unidad5\\CleanArquitecture\\app\\domain\\repositories",
+    "\\Unidad5\\CleanArquitecture\\app\\domain\\useCases",
+    "\\Unidad5\\CleanArquitecture\\app\\presentation",
+    "\\Unidad5\\CleanArquitecture\\app\\presentation\\view"
   ],
+  "SelectedNode": "\\Unidad5\\CleanArquitecture",
   "PreviewInSolutionExplorer": false
 }
