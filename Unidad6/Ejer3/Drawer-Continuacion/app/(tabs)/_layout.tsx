@@ -1,6 +1,6 @@
 import React from "react";
 import { Tabs } from "expo-router";
-import { Ionicons, MaterialIcons } from "@expo/vector-icons";
+import { Ionicons } from "@expo/vector-icons";
 
 export default function RootLayout() {
   return (
@@ -20,12 +20,12 @@ export default function RootLayout() {
             options={{
                 title: 'Home',
                 tabBarIcon: ({ color, size }) => (
-                    <Ionicons name="home" color={color} size={size} />
+                        <Ionicons name="home" color={color} size={size} />
                 ),
             }}
         />
         <Tabs.Screen
-            name="(profile)/index"
+            name="(profile)"
             options={{
                 title: 'Perfil',
                 tabBarIcon: ({ color, size }) => (
